@@ -7,7 +7,7 @@ edition = "2018"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-bellperson = { version = "0.25.0", default-features = false }
+bellperson = { path = "/home/ader/dev/ader/bellperson-0.25.0", default-features = false }
 blake2s_simd = "0.5"
 byteorder = "1"
 env_logger = "0.7.1"

@@ -9,7 +9,7 @@ repository = "https://github.com/lurk-lab/neptune"
 resolver = "2"
 
 [dependencies]
-bellperson = { version = "0.25", default-features = false }
+bellperson = { path = "/home/ader/dev/ader/bellperson-0.25.0", default-features = false }
 blake2s_simd = "0.5"
 blstrs = { version = "0.7.0", optional = true }
 byteorder = "1"
